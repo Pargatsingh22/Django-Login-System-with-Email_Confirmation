@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(909.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+.center{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.center button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: rgb(19, 172, 255);
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+    
+}
+.center button::after{
+    background-color: rgb(19, 172, 255);
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.3s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+}
+.center button:hover::after {
+    transform: translate(0, 0);
+  }
+.center button:hover {
+    border: 2px solid transparent;
+    color: #ffffff;
+    transform: scale(1.05);
+    will-change: transform;
+  }
+
+
+.center h3{
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 18px 0px 18px 0px;
+}
+.conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.conatiner button{
+    /*background-color: #2677f2; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: rgb(19, 172, 255);
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+}
+.conatiner button::after{
+    background-color: rgb(19, 172, 255);
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.3s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+}
+.conatiner button:hover::after {
+    transform: translate(0, 0);
+  }
+  .conatiner button:hover {
+    border: 2px solid transparent;
+    color: #ffffff;
+    transform: scale(1.05);
+    will-change: transform;
+  }
+.conatiner a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.center a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.sign{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10 rgba(0, 0, 0, .1);
+    color: #000000;
+    border-radius: 10px;
+    padding: 30px 40px;
+    flex-direction: column;
+}
+.align{
+    width: 700px;
+}
+.align .tlarge{
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 18px 0px 18px 0px;
+
+}
+.form-group input{
+    border: 2px solid rgba(0, 115, 255, 0.2);
+    color: black;
+    border-radius: 40px;
+}
+.form-group label{
+    font-size: 22px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #f1aa10 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-left: 10px;
+    margin-bottom: 5px;
+   
+}
+.align button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: rgb(19, 172, 255);
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+}
+.align button::after{
+    background-color: rgb(19, 172, 255);
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.3s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+}
+.align button:hover::after {
+    transform: translate(0, 0);
+}
+.align button:hover {
+    border: 2px solid transparent;
+    color: #ffffff;
+    transform: scale(1.05);
+    will-change: transform;
+}
+.bich{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.bich h3{
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    padding: 18px 0px 18px 0px;
+
+}
+.bich .form-group input{
+    width: 400px;
+}
+.end button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    color: rgb(19, 172, 255);
+    font-family: roboto;
+    font-size: 15px;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+
+}
+.end button::after{
+    background-color: rgb(19, 172, 255);
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: 0.3s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+}
+.end button:hover::after {
+    transform: translate(0, 0);
+}
+.end button:hover {
+    border: 2px solid transparent;
+    color: #ffffff;
+    transform: scale(1.05);
+    will-change: transform;
+}
